@@ -8,7 +8,7 @@ The main differences are:
 * All protocol conformances are separated with extensions, i.e.:
 ```swift
 // MARK: - ProtocolName
-extension ModuleName: ProtocolName {
+extension ClassName: ProtocolName {
 
 }
 ```
