@@ -17,13 +17,12 @@ class {{ prefix }}{{ module_info.name }}ViewController: UIViewController {
         super.viewDidLoad()
         output.viewIsReady()
     }
-
-    // MARK: {{module_info.name}}ViewInput
-    func setupInitialState() {
-    }
 }
 
 // MARK: - {{ prefix }}{{module_info.name}}ViewInput
 extension {{ prefix }}{{ module_info.name }}ViewController: {{ prefix }}{{module_info.name}}ViewInput {
 
+    func setupInitialState() {
+
+    }
 }
